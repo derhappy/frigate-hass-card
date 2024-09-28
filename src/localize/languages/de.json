@@ -1,0 +1,123 @@
+{
+  "common": {
+    "frigate_card": "Frigate card",
+    "frigate_card_description": "Eine Lovelace-Karte zur Verwendung mit Frigate",
+    "live": "Live",
+    "no_media": "Keine Medien zum anzeigen",
+    "recordings": "Aufnahmen",
+    "version": "Version"
+  },
+  "config": {
+    "cameras": {
+      "camera_entity": "Kamera-Entität",
+      "capabilities": {
+        "capabilities": {
+          "clips": "Clips",
+          "favorite-events": "Favorisierte Events",
+          "favorite-recordings": "Favorisierte Aufnahmen",
+          "live": "Live",
+          "menu": "Menü",
+          "ptz": "PTZ",
+          "recordings": "Aufnahmen",
+          "seek": "Suche",
+          "snapshots": "Schnappschüsse",
+          "substream": "Substream"
+        },
+        "disable": "Deaktivieren",
+        "disable_except": "Deaktivieren außer",
+        "editor_label": "Kamerafunktionen"
+      },
+      "cast": {
+        "dashboard": {
+          "dashboard_path": "Dashboard-Pfad",
+          "view_path": "Anzeigepfad"
+        },
+        "editor_label": "Cast Optionen",
+        "method": "Cast Methode",
+        "methods": {
+          "dashboard": "Dashboard",
+          "standard": "Standard"
+        }
+      },
+      "dependencies": {
+        "all_cameras": "Ereignisse für alle Kameras mit dieser Kamera anzeigen",
+        "cameras": "Ereignisse für bestimmte Kameras mit dieser Kamera anzeigen",
+        "editor_label": "Abhängigkeitsoptionen"
+      },
+      "dimensions": {
+        "aspect_ratio": "Festes Seitenverhältnis",
+        "editor_label": "Auflösung",
+        "layout": {
+          "editor_label": "Kamera-Layout",
+          "fit": "Layoutanpassung",
+          "fits": {
+            "contain": "Bild eingefasst/im Letterbox-Format",
+            "cover": "Das Bild wird proportional erweitert, um die Karte abzudecken",
+            "fill": "Das Bild wird gestreckt, um die Karte auszufüllen"
+          },
+          "pan": {
+            "x": "Horizontales Schwenken in Prozent",
+            "y": "Vertikales Schwenken in Prozent"
+          },
+          "position": {
+            "editor_label": "Layout Coverposition",
+            "x": "Prozentsatz der horizontalen Platzierung",
+            "y": "Prozentsatz der vertikalen Platzierung"
+          },
+          "view_box": {
+            "bottom": "Unterer Inset in Prozent",
+            "editor_label": "Layout-Ansichtsbereich",
+            "left": " Linker Inset in Prozent",
+            "right": "Rechter Inset in Prozent",
+            "top": "Oberer Inset in Prozent"
+          },
+          "zoom": "Zoomfaktor"
+        }
+      },
+      "engines": {
+        "editor_label": "Optionen für die Kamera-Engine"
+      },
+      "frigate": {
+        "camera_name": "Name der Frigate Kamera (automatisch von der Entität erkannt)",
+        "client_id": "Frigate-Client-ID (bei >1 Frigate-Server)",
+        "editor_label": "Frigate Optionen",
+        "labels": "Frigate labels/Objektfilter",
+        "url": "URL des Frigate Servers",
+        "zones": "Frigate Zonen"
+      },
+      "go2rtc": {
+        "editor_label": "go2rtc Optionen",
+        "modes": {
+          "editor_label": "go2rtc Modes",
+          "mjpeg": "Motion JPEG (MJPEG)",
+          "mp4": "MPEG-4 (MP4)",
+          "mse": "Media Source Extensions (MSE)",
+          "webrtc": "Web Real-Time Communication (WebRTC)"
+        },
+        "stream": "Name des go2rtc-Streams"
+      },
+      "icon": "Symbol für diese Kamera (wird automatisch von der Entität erkannt)",
+      "id": "Eindeutige ID für diese Kamera auf dieser Karte",
+      "image": {
+        "editor_label": "Bildoptionen",
+        "refresh_seconds": "Anzahl der Sekunden, nach denen das Livebild aktualisiert werden soll (0=nie)",
+        "url": "Zu verwendende Bild-URL anstelle des Kamera-Entitäten-Schnappschusses"
+      },
+      "live_provider": "Live-View-Anbieter für diese Kamera",
+      "live_provider_options": {
+        "editor_label": "Optionen für Live-Anbieter"
+      },
+      "live_providers": {
+        "auto": "Automatisch",
+        "go2rtc": "go2rtc",
+        "ha": "Home Assistant-Videostream (z. B. HLS, LL-HLS, WebRTC über HA)",
+        "image": "Home Assistant Bilder",
+        "jsmpeg": "JSMpeg",
+        "webrtc-card": "WebRTC-Karte (d. h. WebRTC-Karte von AlexxIT)"
+      },
+      "motioneye": {
+        "editor_label": "MotionEye Optionen"
+      }
+    }
+  }
+}
